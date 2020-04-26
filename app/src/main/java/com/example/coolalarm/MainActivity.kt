@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     class Receiver : BroadcastReceiver(){
         override fun onReceive(context: Context?, intent: Intent?){
             Log.d("MainActivity", "Receiver :" + Date().toString())
-            var notificationHelper : NotificationManager
+           // var notificationHelper : NotificationManager
         }
     }
 }
