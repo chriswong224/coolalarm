@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun doText(view: View) {
-        textView.setText("hello there")
+        textView.setText(editText.getText())
     }
 }
